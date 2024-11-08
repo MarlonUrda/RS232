@@ -20,7 +20,7 @@ port.on("open", () => {
   // Enviar comandos de prueba
   sendCommand("sms:Hello, World!");
   // sendCommand("copy:source.txt:destination.txt");
-  // sendCommand("del:file.txt");
+  // sendCommand("delete:file.txt");
   // sendCommand("create:newfile.txt:Hello, this is a test.");
 });
 
