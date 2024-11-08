@@ -2,7 +2,7 @@ import { SerialPort, ReadlineParser } from "serialport"
 import { sendMessage, deleteFile, createFile, copyFile } from "./utils";
 
 const port = new SerialPort({
-  path: "COM1",
+  path: "COM2",
   baudRate: 9600,
 });
 
